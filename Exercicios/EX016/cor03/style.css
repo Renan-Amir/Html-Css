@@ -1,0 +1,32 @@
+@charset "UTF-8";
+/* CSS Document */
+body{
+    background-image: linear-gradient(to right,  #0D2D38,#7F99A6,#18212A);
+}
+div.h1{
+    text-align: center;
+}
+main{
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 2px 2px 2px #0a0f15;
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+}
+h1{
+    color: #18212A;
+    text-shadow:1px 1px 1px #0a0f15;
+}
+h2{
+    color: #7F99A6;
+}
+p{
+    text-align: justify;
+}
+aside{
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 2px 2px 2px #0a0f15;
+    width: 600px;
+}

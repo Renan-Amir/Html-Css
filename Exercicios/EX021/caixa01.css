@@ -1,0 +1,17 @@
+
+   /* box-level */
+h1{
+    background-color: rgb(167, 167, 167);
+    height: 300px;
+    width: 300px;
+    text-align: center;
+    border: 10px solid darkslategray;
+    padding: 10px;
+    margin: 10px auto 40px auto;
+}
+
+    /* inline-level */
+a{
+    border: 10px solid red;
+    padding: 10px;
+}

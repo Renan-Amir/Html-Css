@@ -1,0 +1,6 @@
+*{height: 100%}
+body{
+    background-image: linear-gradient(to right, #0D2D38,#7F99A6,#18212A);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}

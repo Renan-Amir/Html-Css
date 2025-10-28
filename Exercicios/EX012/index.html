@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videos em Hospedagem propria</title>
+</head>
+<style>
+    video{
+        width: 750px;
+        border-radius: 10px
+
+    }
+    iframe{
+        border-radius: 10px;
+        margin-top: 20px;
+        width: 750px;
+        height: 450px;
+
+    }
+</style>
+<body>
+    <h1>Inserindo videos hospedados localmente</h1>
+    <P>esse video esta hospedado no meu proprio servidor</P>
+    <video controls poster="Capa/images.jpeg">
+        <source src="media/Meu-Video.Mp4.mp4" type="video/mp4">
+        <source src="media/meu-video.OGV" type="video/ogg">
+        <source src="media/Meu-Video.WebM.webm" type="video/webm">
+        <p>Seu naegador nao tem compatilbilidade com reproduçao de videos</p>
+    </video>
+    <h1>Inserindo Video do Youtube</h1>
+    <iframe width="750" height="450" src="https://www.youtube.com/embed/OzUnqQk4eOg?si=_yAKmIU9Bgzj6twJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <h1>Inserindo Video do Vimeo</h1>
+    <div><iframe src="https://player.vimeo.com/video/1109341136?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay;  clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin"  title="Akaza Vs Renguuko (Demon slayer Remake)"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+</body>
+</html>

@@ -1,0 +1,40 @@
+div.cor1{
+    background-color: blue; color: white;
+    border-radius: 15px;
+    text-align: center;
+    width: 25%;
+    margin: 10px auto;
+
+}
+div.cor2{
+    background-color: #0000ff; color: #ffffff;
+    border-radius: 10px;
+    text-align: center;
+    width: 25%;
+    margin: 10px auto;
+}
+div.cor3{
+    background-color: rgb(0, 0, 255); color: rgb(255, 255, 255);
+    border-radius: 10px;
+    text-align: center;
+    width: 25%;
+    margin: 10px auto;
+}
+div.cor4{
+    background-color: hsl(240, 100%, 50%); color: hsl(0, 0%, 100%);
+    border-radius: 10px;
+    text-align: center;
+    width: 25%;
+    margin: 10px auto;
+}
+div.texto{
+    text-align: center;
+    border-radius: 30px;
+    background-color: rgba(116, 151, 222, 0.502);
+    padding: 10px;
+    margin: 25px auto;
+    border: 2px solid black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    width: 40%;
+}
