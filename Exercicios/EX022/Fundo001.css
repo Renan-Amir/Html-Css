@@ -1,6 +1,6 @@
 /*Configuração de Imagens*/
 body{
-    background-image: url(Imagens/backiee-336104.jpg);
+    background-image: url(Imagens/pattern002.png);
 }
 div.Quadrado {
     display: inline-block;
@@ -17,5 +17,5 @@ div#q2{
     background-image: linear-gradient(to bottom, yellow , red); /*Segunda maneira de configurar o fundo */
 }
 div#q3{
-    background-image: url(Imagens/pattern003.png); /*Terceira maneira de configurar o fundo */
+    background-image: url(Imagens/pattern004.png); /*Terceira maneira de configurar o fundo */
 }
