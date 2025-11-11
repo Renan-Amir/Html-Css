@@ -1,0 +1,17 @@
+body{
+    height: 100vh;
+    background-color: black;
+    background-image: url(/Exercicios/EX022/Imagens/wallpaper002.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+main{
+    background-color: white;
+    padding: 10px;
+    margin: auto;
+    width: 400px;
+    border-radius: 15px;
+    text-align: center;
+    background-size: 100%;
+}
