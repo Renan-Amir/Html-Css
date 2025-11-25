@@ -24,9 +24,13 @@ thead, tfoot{
     background-color: gray;
     color: white;
 }
+tbody > tr:nth-child(2n){  /* No lugar de ODD(IMPAR) posso colocar 2n-1 e EVEN(PAR) posso colocar 2n */
+    background-color: rgb(95, 95, 95);
+}
+
 td.num{
     text-align: right;
 }
 td.cor{
     color: black;
-}
+} 
