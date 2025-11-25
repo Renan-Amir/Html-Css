@@ -11,6 +11,7 @@
     <!--
         Anatomia para tabelas grandes
         TABLE
+            CAPTION
             THEAD
                 TR, TD, TH
             TBODY
@@ -19,12 +20,13 @@
                 TR, TD, TH
     -->
     <table>
+        <caption>População das Unidades Federativas</caption>
         <thead>
             <tr>
-                <th>Estado</th>
-                <th>População</th>
-                <th>Variação (2010-2022)</th>
-                <th>% do total (2025)</th>
+                <th scope="col">Estado</th>
+                <th scope="col">População</th>
+                <th scope="col">Variação (2010-2022)</th>
+                <th scope="col">% do total (2025)</th>
             </tr>
         </thead>
         <tbody>
@@ -193,7 +195,7 @@
         </tbody>
         <tfoot>
            <tr>
-            <th>Total </th>
+            <th scope="row">Total </th>
             <td class="cor"><strong>212.694.676</strong></td>
             <td class="cor"><strong>242,96%</strong></td>
             <td class="cor"><strong>99,98%</strong></td>
@@ -201,5 +203,5 @@
         </tfoot>
 
     </table>
- </body>
+ </body> 
  </html>

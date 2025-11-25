@@ -10,7 +10,16 @@ td, th{
     border: 1px solid black;
     padding: 10px;
     text-align: center;
+
 }
+caption{
+    
+    font-size: 1.2em;
+    font-weight: bold; 
+    padding: 10px;
+    background-color: rgb(158, 157, 157);
+}
+
 thead, tfoot{
     background-color: gray;
     color: white;
