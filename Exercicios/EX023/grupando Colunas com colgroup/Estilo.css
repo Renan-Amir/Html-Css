@@ -1,0 +1,26 @@
+table{
+    width: 500px;
+    border-collapse: collapse;
+}
+td,th{
+    border: 1px solid black;
+    padding: 12px;
+}
+caption{
+    font-size: 1.3em;
+    font-weight: bolder;
+    padding: 8px;
+}
+.destaque{
+    background-color: red;
+}
+
+col.cnome{
+    background-color: green;
+}
+col.csexo{
+    background-color: red;
+}
+col.cidade{
+    background-color: blue;
+}
